@@ -34,7 +34,7 @@ export default function List() {
         상품.map((data, i)=>{
           return (
             <div className="food" key={i}>
-              <Image src={food0} className="food-img" />``
+              <Image src={food0} className="food-img" />
               <h4>{data.name} : ${data.price}</h4>
             </div>
           )
